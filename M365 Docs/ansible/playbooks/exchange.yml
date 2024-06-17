@@ -1,0 +1,5 @@
+- name: Configure Exchange
+  hosts: localhost
+  tasks:
+    - name: Create mailbox
+      command: pwsh -Command "New-Mailbox -UserPrincipalName 'user@yourdomain.com' -Alias 'user' -FirstName 'User' -LastName 'Example'"
