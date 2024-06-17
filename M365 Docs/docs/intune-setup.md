@@ -1,10 +1,15 @@
-# Microsoft 365 Tenant Setup
+# Intune Setup
 
 ## Overview
-Steps to set up a new Microsoft 365 tenant.
+Steps to configure Microsoft Intune for device and application management.
 
-## Steps
-1. Sign up for a Microsoft 365 subscription.
-2. Configure the basic settings (domain, users, licenses).
-3. Set up security and compliance settings.
-4. Enable and configure Microsoft 365 services (Intune, SharePoint, Exchange, Teams).
+## Configuration
+1. **Enroll Devices**:
+   - Set up automatic enrollment for Windows devices.
+   - Configure enrollment restrictions.
+2. **Configure Policies**:
+   - Create and assign device compliance policies.
+   - Create and assign device configuration profiles.
+3. **App Management**:
+   - Add and assign applications.
+   - Configure app protection policies.
