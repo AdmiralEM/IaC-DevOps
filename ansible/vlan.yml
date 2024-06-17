@@ -1,0 +1,16 @@
+- name: Configure VLANs
+  hosts: switch
+  tasks:
+    - name: Create VLAN 10
+      community.general.network_cli:
+        host: "{{ inventory_hostname }}"
+        username: "{{ ansible_user }}"
+        password: "{{ ansible_password }}"
+        authorize: yes
+        auth_pass: "{{ ansible_ssh_pass }}"
+        transport: cli
+        commands:
+          - configure terminal
+          - vlan 10
+          - name Management
+          - exit
