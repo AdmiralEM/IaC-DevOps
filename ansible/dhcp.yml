@@ -1,0 +1,12 @@
+- name: Configure DHCP
+  hosts: dhcp_server
+  tasks:
+    - name: Install Kea DHCP server
+      apt:
+        name: kea-dhcp4-server
+        state: present
+
+    - name: Configure DHCP scope
+      template:
+        src: templates/kea-dhcp4.conf.j2
+        dest: /etc/kea/kea-dhcp4.conf
