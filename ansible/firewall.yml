@@ -1,0 +1,8 @@
+- name: Configure firewall rules
+  hosts: firewall
+  tasks:
+    - name: Allow HTTP/HTTPS traffic
+      firewalld:
+        service: https
+        permanent: yes
+        state: enabled
