@@ -1,0 +1,5 @@
+- name: Configure Security and Compliance
+  hosts: localhost
+  tasks:
+    - name: Create DLP policy
+      command: pwsh -Command "New-DlpCompliancePolicy -Name 'DLP Policy' -ExchangeLocation All -OneDriveLocation All -SharePointLocation All"
