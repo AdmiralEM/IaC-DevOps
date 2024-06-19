@@ -1,8 +1,0 @@
-- name: Configure Microsoft 365
-  hosts: localhost
-  tasks:
-    - include_tasks: intune.yml
-    - include_tasks: sharepoint.yml
-    - include_tasks: exchange.yml
-    - include_tasks: teams.yml
-    - include_tasks: security-compliance.yml

@@ -1,5 +1,0 @@
-- name: Configure Intune
-  hosts: localhost
-  tasks:
-    - name: Create device compliance policy
-      command: pwsh -Command "New-DeviceCompliancePolicy -Name 'Windows Compliance Policy' -OsVersion '10.0' -RequirePassword"
