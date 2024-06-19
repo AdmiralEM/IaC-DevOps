@@ -1,4 +1,0 @@
-[all]
-firewall ansible_host=10.10.10.1 ansible_user=admin ansible_password=password
-switch ansible_host=10.10.10.2 ansible_user=admin ansible_password=password
-dhcp_server ansible_host=10.10.10.3 ansible_user=admin ansible_password=password

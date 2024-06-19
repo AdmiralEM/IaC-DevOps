@@ -1,7 +1,0 @@
-- name: Configure the network
-  hosts: all
-  become: yes
-  tasks:
-    - include_tasks: firewall.yml
-    - include_tasks: vlan.yml
-    - include_tasks: dhcp.yml
