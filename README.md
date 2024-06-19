@@ -40,45 +40,64 @@ git clone https://github.com/AdmiralEM/IaC-DevOps.git
 cd IaC-DevOps
 ```
 
-## Directory Overview
-/docs
-The /docs directory contains comprehensive documentation for the entire project. It includes overviews, guidelines, and detailed explanations of each component.
+### Directory Overview
 
-/network
-The /network directory includes configuration files and diagrams for setting up the network. This includes VLAN configurations, network device settings, and network diagrams.
+#### /docs
 
-/servers
-The /servers directory contains configuration files and automation scripts for setting up servers. This includes Ansible playbooks, Docker Compose files, and server roles.
+The `/docs` directory contains comprehensive documentation for the entire project. It includes overviews, guidelines, and detailed explanations of each component.
 
-/services
-The /services directory includes configurations for various services such as Nginx, DNS, and other critical services used in the network.
+#### /network
 
-/azure
-The /azure directory contains Terraform scripts and ARM templates for deploying Azure resources. This includes virtual machines, networking, and other Azure services.
+The `/network` directory includes configuration files and diagrams for setting up the network. This includes VLAN configurations, network device settings, and network diagrams.
 
-/m365
-The /m365 directory includes documentation and configuration files for setting up and managing a Microsoft 365 tenant. This covers user management, security policies, and compliance documentation.
+#### /servers
 
-/on-prem
-The /on-prem directory contains configuration files and automation scripts for on-premises infrastructure. This includes Proxmox setup, pfSense configurations, and QNAP NAS setup.
+The `/servers` directory contains configuration files and automation scripts for setting up servers. This includes Ansible playbooks, Docker Compose files, and server roles.
 
-/scripts
-The /scripts directory includes various scripts for automating the setup and deployment of the network components. This includes Bash scripts for network setup and deployment scripts for servers and Azure resources.
+#### /services
 
-/configs
-The /configs directory contains configuration files for various tools and services used in the project. This includes configurations for pfSense, Nginx, and other tools.
+The `/services` directory includes configurations for various services such as Nginx, DNS, and other critical services used in the network.
 
-/examples
-The /examples directory includes example files and templates to help users understand how to use the repository. This includes example user setups and virtual machine configurations.
+#### /azure
 
-/images
-The /images directory contains diagrams, screenshots, and other visual aids used throughout the documentation.
+The `/azure` directory contains Terraform scripts and ARM templates for deploying Azure resources. This includes virtual machines, networking, and other Azure services.
+
+#### /m365
+
+The `/m365` directory includes documentation and configuration files for setting up and managing a Microsoft 365 tenant. This covers user management, security policies, and compliance documentation.
+
+#### /on-prem
+
+The `/on-prem` directory contains configuration files and automation scripts for on-premises infrastructure. This includes Proxmox setup, pfSense configurations, and QNAP NAS setup.
+
+#### /scripts
+
+The `/scripts` directory includes various scripts for automating the setup and deployment of the network components. This includes Bash scripts for network setup and deployment scripts for servers and Azure resources.
+
+#### /configs
+
+The `/configs` directory contains configuration files for various tools and services used in the project. This includes configurations for pfSense, Nginx, and other tools.
+
+#### /examples
+
+The `/examples` directory includes example files and templates to help users understand how to use the repository. This includes example user setups and virtual machine configurations.
+
+#### /images
+
+The `/images` directory contains diagrams, screenshots, and other visual aids used throughout the documentation.
 
 ## Contributing
-We welcome contributions to this project. Please read our CONTRIBUTING.md file for guidelines on how to contribute.
+
+We welcome contributions to this project. Please read our [CONTRIBUTING.md](docs/CONTRIBUTING.md) file for guidelines on how to contribute.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contact
+
 If you have any questions or need further assistance, feel free to open an issue or contact the repository maintainers.
+
+---
+
+Thank you for using our Infrastructure-as-Code and DevOps Example Network repository. We hope you find it useful for your projects and learning experiences.
